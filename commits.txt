@@ -1,0 +1,17 @@
+commit 818e2fbace96e6bb6856272b799978b6943832fb
+Author: fabianTrejo <winer453@gmail.com>
+Date:   Sat Mar 19 17:51:40 2016 -0600
+
+    Agrege el color al footer
+
+commit f59777eeaf501784be94d607f45f7d9461af9cd7
+Author: fabianTrejo <winer453@gmail.com>
+Date:   Sat Mar 19 17:49:38 2016 -0600
+
+    Agrege la etiqueta de footer
+
+commit 63de15865340391fb68f4730596d81c83a60a91b
+Author: fabianTrejo <winer453@gmail.com>
+Date:   Sat Mar 19 17:47:20 2016 -0600
+
+    iniciando
