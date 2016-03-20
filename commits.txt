@@ -1,8 +1,14 @@
-commit e5e24b69e18092a4dec7c20438269e6e338636d5
+commit 11989f858e4300f27d7148988ab97ccd2828a413
 Author: fabianTrejo <winer453@gmail.com>
-Date:   Sat Mar 19 18:19:35 2016 -0600
+Date:   Sat Mar 19 21:20:24 2016 -0600
 
-    Cambie de tamaño la letra de los parrafos
+    Termine animacion y otros diseños
+
+commit 247168a90fd05cedfe74f1c4148720d04ccf4bea
+Author: fabianTrejo <winer453@gmail.com>
+Date:   Sat Mar 19 18:24:41 2016 -0600
+
+    Agrerfer
 
 commit 30401118ba78ad88220fcd24f3570f768ab4ae78
 Author: fabianTrejo <winer453@gmail.com>

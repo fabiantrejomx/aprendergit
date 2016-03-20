@@ -57,9 +57,14 @@ p{
 	background: steelblue;
 
 	line-height: 1.5;
-	/*border: 1px solid black;*/
+	
 	transition: 0.3s;
 }
+.oculto{
+	
+	
+}
+
 p:hover{
 	
 	color: #fff;
