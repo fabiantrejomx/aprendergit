@@ -39,39 +39,42 @@ h1{
 
 }
 main{
-	display: flex;
-	flex-direction:column;
-
+	background:tomato;
+	width: 80%;
+	align-self:center;
+	padding: 5px;
 	
 }
 .elementos{
-	margin: 10px;
-	width: 80%;
-	background:tomato;
-	align-self:center;
+	
+	display: flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
 
-	
-}
-p{
-	font-size: 19px;
-	background: steelblue;
 
-	line-height: 1.5;
-	
-	transition: 0.3s;
 }
-.oculto{
+.label{
+	text-align: center;
+	border-radius: 5px 5px 0 0;
+background: peru;
+line-height: 3;
+}
+.item{
+	background: #ccc;
+	width: 200px;
 	
-	
+	border-radius: 5px;
+	margin: 6px;
 }
 
-p:hover{
-	
+
+
+
+blockquote:hover{
 	color: #fff;
-	transform: scale(1.11);
-	
-
+	transform: scale(1.13);
 }
+
 footer{
 	background: #ccc;
 	padding: 25px;
