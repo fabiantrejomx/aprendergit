@@ -5,35 +5,44 @@
 	<title>Document</title>
 	<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="style.css">
+	
 </head>
 <body>
 	<header>
-		<h1>Mi prueba de GIT</h1>
+		
+		<img src="logo.png" alt="" width="300px" heigth="70px">
+		<h1>Aprende a usar GIT</h1>
 	</header>
 	<main>
-		<div class="wrapper">Hola yo  soy fabian y estoy aprendiendo  a usar Git</div>
-		<p ><q>git init</q>---solo se hace al iniciar un nuevo proyecto hace que Git empieze a monitoriar todo lo que hagamos</p>
+		<div class="subtitle">Hola yo  soy fabian y estoy aprendiendo  a usar Git</div>
 
-		<p><q>git status</q>--sirve para ver el estado del proyecto</p>
+		<div class="elementos">
+			<p ><code>git init</code>---solo se hace al iniciar un nuevo proyecto hace que Git empieze a monitoriar todo lo que hagamos</p>
 
-		<p><q>git add</q>--.sirve para agregar un archivo al commit si ya  trabajamos en nuestros documentos</p>
+			<p><strong>git status</strong>--sirve para ver el estado del proyecto</p>
 
-		<p><q>git add -A</q>--sirve para agregar todo los archivos</p>
+			<p><em>git add</em>--.sirve para agregar un archivo al commit si ya  trabajamos en nuestros documentos</p>
 
-		<p><q>git commit -m "Msg"</q>--sirve para guardar los cambios que se hiceron, el msj sirve para identificar que modificamos <mark>agregar commit</mark></p>
+			<p><q>git add -A</q>--sirve para agregar todo los archivos</p>
 
-		<p><q>git log</q>--va a enlistar todos los commits con su informacion</p>
+			<p><q>git commit -m 'Msg'</q>--sirve para guardar los cambios que se hiceron, el msj sirve para identificar que modificamos agregar commit</p>
 
-		<p><q>git log > commits.txt</q>--se creea un txt con los id de los commits</p>
+			<p><q>git log</q>--va a enlistar todos los commits con su informacion</p>
 
-		<p><q>git checkout #aqui va el numero identificador</q>--podemos navegar en los commits</p>
+			<p><q>git log > commits.txt</q>--se creea un txt con los id de los commits</p>
 
-		<p><q>git checkout master</q>--te regresa al ultimo commit <em>actualmente trabajando</em></p>
+			<p><q>git checkout #aqui va el numero identificador</q>--podemos navegar en los commits</p>
 
-		<p><q>git reset --soft</q>..sirve para borrar pero no borra el workin area, no toca el area del trabajo</p>
+			<p><q>git checkout master</q>--te regresa al ultimo commit <em>actualmente trabajando</em></p>
 
-		<p><q>git reset --hard</q>borra todo!!</p>
+			<p><q>git reset --soft</q>..sirve para borrar pero no borra el workin area, no toca el area del trabajo</p>
+
+			<p><q>git reset --hard</q>borra todo!!</p>
+
+			<p><q>git branch</q>--crea una nueva rama para poder modificar como hacer un testeo y no modificar la rama del MASTER! rama principal</p>
+		</div>
+		
 	</main>
-	<footer>Pie de pagina</footer>
+	<footer>Pie de pagina<small>fabian</small></footer>
 </body>
 </html>
