@@ -1,3 +1,15 @@
+commit e5e24b69e18092a4dec7c20438269e6e338636d5
+Author: fabianTrejo <winer453@gmail.com>
+Date:   Sat Mar 19 18:19:35 2016 -0600
+
+    Cambie de tamaño la letra de los parrafos
+
+commit 30401118ba78ad88220fcd24f3570f768ab4ae78
+Author: fabianTrejo <winer453@gmail.com>
+Date:   Sat Mar 19 18:11:05 2016 -0600
+
+    Cambie te tamaño la letra del footer
+
 commit 818e2fbace96e6bb6856272b799978b6943832fb
 Author: fabianTrejo <winer453@gmail.com>
 Date:   Sat Mar 19 17:51:40 2016 -0600
