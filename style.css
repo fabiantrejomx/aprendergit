@@ -11,7 +11,7 @@ header{
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: 1500px 740px;
-	height:740px;
+	height:100vh;
 
 }
 img{
@@ -57,7 +57,7 @@ main{
 	background-size: 1500px 740px;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	height: 740px;
+	height:100vh;
 
 }
 
