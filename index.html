@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
+	<script src="jquery.js"></script>
 	<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="style.css">
 	
@@ -21,42 +22,42 @@
 			
 			<div class="item">
 				<div class="label"><code>git init</code></div>
-				<div>
+				<div class="contenido">
 					<blockquote>Solo se hace al iniciar un nuevo proyecto hace que Git empieze a monitoriar todo lo que hagamos</blockquote>
 				</div>
 			</div>
 
 			<div class="item">
 				<div class="label"><code>git status</code></div>
-				<div>
+				<div class="contenido">
 					<blockquote>Sirve para ver el estado del proyecto</blockquote>
 				</div>	
 			</div>
 
 			<div class="item">
 				<div class="label"><code>git add</code></div>
-				<div>
+				<div class="contenido">
 					<blockquote>Sirve para agregar un archivo al commit si ya  trabajamos en nuestros documentos</blockquote>
 				</div>
 			</div>
 			
 			<div class="item">
 				<div class="label"><code>git add -A</code></div>
-				<div>
+				<div class="contenido">
 					<blockquote>Sirve para agregar todo los archivos</blockqoute>
 				</div>
 			</div>
 			
 			<div class="item">
 				<div class="label"><code>git commit -m 'Msg'</code></div>
-				<div>
+				<div class="contenido">
 					<blockquote>Sirve para guardar los cambios que se hiceron, el msj sirve para identificar que modificamos agregar commit</blockqoute>
 				</div>
 			</div>
 
 			<div class="item">
 				<div class="label"><code>git log</code></div>
-				<div>
+				<div class="contenido">
 					<blockquote>Va a enlistar todos los commits con su informacion</blockquote>
 				</div>
 				
@@ -64,74 +65,60 @@
 
 			<div class="item">
 				<div class="label"><code>git log > commits.txt</code></div>
-				<div>
+				<div class="contenido">
 					<blockquote>se creea un txt con los id de los commits</blockquote>
 				</div>
 			</div>
 
 			<div class="item">
-				<div class="label"><code>git checkout numIde</code>
+				<div class="label"><code>git checkout #nombranch</code>
 				</div>
-				<div>
+				<div class="contenido">
 					<blockquote>podemos navegar en los commits</blockquote>
 				</div>
 			</div>
 
 			<div class="item">
 				<div class="label"><code>git checkout master</code></div>
-				<div>
+				<div class="contenido">
 					<blockquote>te regresa al ultimo commit actualmente trabajando</em></blockquote>
 				</div>
 			</div>
 
 			<div class="item">
 				<div class="label"><code>git reset --soft</code></div>
-				<div>
+				<div class="contenido">
 					<blockquote>sirve para borrar pero no borra el workin area, no toca el area del trabajo</blockquote>
 				</div>
 			</div>
 
 			<div class="item">
 				<div class="label"><code>git reset --hard</code></div>
-				<div>
+				<div class="contenido">
 					<blockquote>borra todo!!</blockquote>
 				</div>
 			</div>
+
 			<div class="item">
 				<div class="label"><code>git branch</code></div>
-				<div>
+				<div class="contenido">
 					<blockquote>ves en que rama te encuentras</blockquote>
 				</div>
-				<p><q></q></p>
+				
 			</div>
 
 			<div class="item">
-				<div class="label"><code>git branch #nombreDelBranch</code></div>
-				<div>
+				<div class="label"><code>git branch #nomDelBranch</code></div>
+				<div class="contenido">
 					<blockquote>crea una nueva rama para poder modificar como hacer un testeo y no modificar la rama del MASTER! rama principal, para poder moverte entre ramas se utiliza <code>git checkout #nombreDeBranch</code></em></blockquote>
 				</div>
 			</div>
+		
 
-			<div class="item">
-				<div class="label"><code>FUCIONES</code></div>
-				<div>
-					<blockquote>Primero ir a la rama principal <q><code>git checkout #nombredelaprincipal</code></q> despes poner <q><code>git emerge #branch</code></q> que es el nombre de la rama que se unira</blockquote>
-				</div>
-			</div>
-
-			<div class="item">
-				<div class="label"><code><code> git checkout -b #nomBranch</code></div>
-				<div>
-					<blockquote>Para moverte al una rama y acceder a ella al mismo tiempo puedes escribir</blockquote>
-				</div>
-			</div>
-				
-
-			</div>
-			
 		</div>
 		
 	</main>
-	<footer>Pie de pagina<small>fabian</small></footer>
+	<footer>Pie de pagina fabian</footer>
+	<script src="script.js"></script>
 </body>
 </html>
