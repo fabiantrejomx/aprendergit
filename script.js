@@ -10,7 +10,6 @@ $('.a').on('click', function(event) {
 });
 */
 $(document).on("ready",function(){
-
 $(".elementos").on("click",".label",function(){
 	var este= $(this);
 	var cont= este.next();
@@ -19,8 +18,27 @@ $(".elementos").on("click",".label",function(){
 	var allcont=este.parent().siblings().find('.contenido');
 	cont.slideToggle();
 	allcont.slideUp();
-	
+
 });
+
+$(document).on("scroll",function(){
+
+	var altura=$(document).height();
+	var scrollTop= $(this).scrollTop();
+	var pixel=scrollTop/70;
+
+	if (pixel>=4) {
+		$("header").css({
+			"-webkit-filter": "blur("+ 2 +"px"
+		});
+	}else{
+		$("header").css({
+			"-webkit-filter": "blur("+0 +"px"
+		});
+	}
+})
+
+
 
 
 });
