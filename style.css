@@ -6,10 +6,20 @@ body{
 	flex-direction:column;
 	
 }
+header{
+	background-image: url("parallax1.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 1500px 740px;
+	height:740px;
+
+}
 img{
 	margin: 30px 0 0 40px;
 	position:relative;
 	animation:moviendo 2.3s linear infinite;
+	width: 240px;
+	height: 240px;
 	
 }
 @keyframes moviendo{
@@ -38,11 +48,17 @@ h1{
 
 }
 main{
-	margin: 15px;
+	/*margin: 15px;*/
 	background:tomato;
-	width: 80%;
+	/*width: 80%;*/
 	align-self:center;
 	padding: 5px;
+	background-image: url("parallax.jpg");
+	background-size: 1500px 740px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 740px;
+
 }
 
 .elementos{
@@ -61,21 +77,23 @@ line-height: 3;
 }
 .item{
 	
-	width: 200px;
+	width: 300px;
+
+	margin-top: 40px;
 	
-	border-radius: 5px;
-	margin: 6px;
 }
 .label{
 	cursor: pointer;
 	margin: 0;
+	height: 60px;
+	box-shadow: 3px 3px 6px 2px #111 ;
 }
 .contenido{
 	background: #ccc;
-	border-radius: 0 0 5px 5px;
+	border-radius: 0 0 8px 8px;
 	line-height: 2;
 	display: none;
-
+	box-shadow: 3px 3px 6px 2px #111 ;
 }
 blockquote{
 	margin-top: 0;
